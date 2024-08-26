@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <!-- Ejercicio practico con formularios -->
+    <form action="/datos" method="get">
+
+        <!-- <label> La etiqueta <label> se usa para asociar un texto 
+            descriptivo con un campo de formulario (como un input). El objetivo es mejorar 
+            la accesibilidad y hacer que los formularios sean más fáciles de usar. -->
+        <label for="texto">Campo de Texto</label>
+
+        <!-- La etiqueta <input> crea diferentes tipos de campos de 
+            entrada dentro de un formulario. El comportamiento de los campos de entrada depende del atributo type.
+            Atributos comunes:
+            type: Define el tipo de entrada, como text, password, email, submit, etc.
+            id: Asocia el campo con un <label> y permite seleccionarlo fácilmente con CSS o JavaScript.
+            name: El nombre que tendrá el campo en el formulario cuando se envíe. Este valor se enviará como parte de la información del formulario.
+            placeholder: Texto que aparece dentro del campo de entrada cuando está vacío, para indicar qué se espera que el usuario ingrese. -->
+        <input type="text" id="texto" name="texto" placeholder="Ingresa Texto">
+
+        <br><br>
+
+        <!-- Campo de tipo contraseña -->
+        <label for="clave">Campo contraseña</label>
+        <input type="password" id="clave" name="clave" placeholder="Ingrese contraseña">
+
+        <br><br>
+
+        <!-- Campo de tipo email -->
+        <label for="email">Campo email</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese Correo">
+        
+        <br><br>
+
+        <!-- Campo de tipo telefono -->
+        <label for="Telefono">Campo Telefono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingrese numero telefono" minlength="1" maxlength="5">
+
+        <br><br>
+
+        <!-- Campo URL -->
+         <label for="Rutas">Campo URL</label>
+         <input type="url" id="Rutas" name="Rutas">
+
+         <br><br>
+
+         <!-- Campo para numero -->
+          <label for="Numero">Campo Numero</label>
+          <input type="number" id="Numero" name="Numero">
+
+          <br><br>
+
+          <!-- Campo de tipo rango -->
+
+          <label for="Rango"> Campo tipo rango</label>
+          <input type="range" id="Rango" name="Rango">
+
+          <br><br>
+
+          <!-- Campo para fecha -->
+
+          <label for="Fecha">Campot tipo Fecha</label>
+          <input type="date" id="Fecha" name="Fecha">
+
+
+          <br><br>
+
+          <!-- Campo para hora -->
+
+          <label for="Hora">Campo tipo Hora</label>
+          <input type="time" id="Hora" name="Hora">
+
+          <br><br>
+
+          <!-- Campo tipo fecha y hora -->
+
+          <label for="Datatime">Campo datatime</label>
+          <input type="datetime-local" id="Datatime" name="Datatime">
+          
+          <br><br>
+
+          <!-- Campo para mes -->
+           <label for="Mes">Campo tipo mes</label>
+           <input type="month" id="Mes" name="Mes">
+
+           <br><br>
+
+           <!-- Campo para la semana -->
+            <label for="Semana"> Campo para semana</label>
+            <input type="week" id="Semana" name="Semana">
+
+            <br><br>
+
+            <!-- Campo para colores -->
+             <label for="Colores">Campo para los colores</label>
+             <input type="color" id="Colores" name="Colores">
+
+             <br><br>
+
+             <!-- Campo para seleccionar -->
+              <label for="seleccionar"></label>
+              <input type="checkbox" id="seleccionar" name="seleccionar">
+
+              
+
+           
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
